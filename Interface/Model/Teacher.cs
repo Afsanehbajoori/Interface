@@ -20,7 +20,7 @@ namespace Interface.Model
 
         public double GetSalary()
         {
-            return SalaryInfo.SalaryBase + (Experience * SalaryInfo.ExprinceBonus);
+            return SalaryInfo.SalaryBase + (Experience * SalaryInfo.ExprinceBonus);  // we can use class name and its varible becuse they are static
         }
 
         public void PrintRole()
